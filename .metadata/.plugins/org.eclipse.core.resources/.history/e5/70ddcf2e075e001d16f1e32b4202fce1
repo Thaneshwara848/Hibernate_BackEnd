@@ -1,0 +1,19 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MyCalTestDemo {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+	
+	Cal c = new Cal();
+	@Test
+	void addTest()
+	{
+		
+	}
+
+}

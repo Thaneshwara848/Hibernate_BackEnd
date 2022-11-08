@@ -1,0 +1,30 @@
+package com;
+
+class CRUD
+{
+	void addRecord()
+	{
+		
+	}
+	void deleteRecord()
+	{
+		
+	}
+	void updateEmp()
+	{
+		
+	}
+	void readEmp()
+	{
+		
+	}
+}
+public class App {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

@@ -1,0 +1,89 @@
+package com;
+
+import java.util.Scanner;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+class CRUD
+{
+	static void addRecord()
+	{	
+		
+//		<hibernate-configuration>
+//	    <session-factory name="DemoSession">
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		
+		SessionFactory factory=cfg.buildSessionFactory();
+		Session session=factory.openSession();
+		Transaction tx=session.beginTransaction();
+		
+		Employee e= new Employee();
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter ID :");
+		System.out.println("Enter Name :");
+		System.out.println("Enter Age  :");
+		System.out.println("Enter Salary :");
+		System.out.println("Enter Designation : ");
+		e.setUid(100);
+		e.setUname("Thanesh");
+		e.setAge(25);
+		e.setSalary(70000);
+		e.setDesig("Developer");
+		
+		session.save(e);
+		tx.commit();
+		
+		System.out.println("Data inserted Successfully....!");
+		
+		
+		
+		
+	}
+	static void deleteRecord()
+	{	
+	}
+	static void updateEmp()
+	{	
+	}
+	static void readEmp()
+	{	
+	}
+}
+public class App {
+
+	public static void main(String[] args) {
+		 int ch;
+		do {
+			Scanner sc= new Scanner(System.in);
+			System.out.println("1 ) Insert ");
+			System.out.println("2 ) Delete ");
+			System.out.println("3 ) Update ");
+			System.out.println("4 ) READ ");
+			 System.out.print("Enter Choice ");
+			 ch= sc.nextInt();
+			 if(ch==1)
+			 {
+				 CRUD.addRecord(); 
+			 }
+			 if(ch==2)
+			 {
+				 CRUD.deleteRecord(); 
+			 }
+			 if(ch==3)
+			 {
+				 CRUD.updateEmp();
+			 }
+			 if(ch==4)
+			 {
+				 CRUD.readEmp();
+			 }
+		}while(ch<=4);
+		
+	}
+
+}

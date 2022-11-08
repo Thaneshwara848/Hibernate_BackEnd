@@ -1,0 +1,29 @@
+
+class A
+{
+	int add(int a, int b )
+	{
+	
+		return a+b;
+	}
+	int sub(int a, int b )
+	{
+	
+		return a-b;
+	}
+	int  mul(int a, int b )
+	{
+		return a*bl
+	}
+	void div(int a, int b )
+	{
+		
+	}
+}
+public class Cal {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

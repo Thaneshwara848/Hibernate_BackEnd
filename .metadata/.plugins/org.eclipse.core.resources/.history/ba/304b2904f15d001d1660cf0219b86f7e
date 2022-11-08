@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="addation">
+	
+		Enter A value : <input type="text" name="a"><br>
+		Enter B value : <input type="text" name="b"> <br> <br>
+	
+		<input type="submit" value="ADD"> 
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+
+Project 
+	
+	1 Insert :
+			 clerk,dev, tester , manager 
+			id , Namer , age , Salary , Desig 
+	2 Display  :
+			whom you want to dipsly ? id  
+	3 Raise Salary  : 10 % , 15%, 20 ,  
+	4 DELETE employee  : based on ID 
+			show the rec 
+					then  confirm and delete 
+					
+	5 Exit : It has Say Thank you 
+	
+	
+	JDBC :
+		CRUD :

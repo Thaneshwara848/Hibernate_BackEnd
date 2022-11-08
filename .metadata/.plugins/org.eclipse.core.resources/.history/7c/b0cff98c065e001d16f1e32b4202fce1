@@ -1,0 +1,27 @@
+
+class A
+{
+	void add(int a, int b )
+	{
+		
+	}
+	void sub()
+	{
+		
+	}
+	void mul()
+	{
+		
+	}
+	void div()
+	{
+		
+	}
+}
+public class Cal {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

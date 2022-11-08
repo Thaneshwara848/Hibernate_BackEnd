@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+	Enter Name :<input type="text" name="myname"> 
+
+
+</center>
+
+</body>
+</html>
