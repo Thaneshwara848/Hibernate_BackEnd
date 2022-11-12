@@ -49,12 +49,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="MyHibernatedDemo"/>
 			<item value="com"/>
 		</list>
 		<list key="name">
 			<item value="Myproject"/>
 		</list>
 		<list key="artifactId">
+			<item value="FirstDemoHibernate"/>
 			<item value="HibernateDemo"/>
 		</list>
 		<list key="projectNameTemplate">
