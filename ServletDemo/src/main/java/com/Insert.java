@@ -41,6 +41,12 @@ Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/javabac
 		pstmt.execute();
 		pstmt.close();
 		System.out.println("Data inserted...!");
+		PrintWriter out=response.getWriter();
+		out.print("<a href='HOME.html'>HOME PAGE </a>");
+		
+//		INSERT
+//		UPDATE
+//		DELETE
 		
 		
 	} catch (Exception e) {
@@ -49,10 +55,7 @@ Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/javabac
 	
 	PrintWriter out= response.getWriter();
 	
-	out.print("Data Inserted Sucessfully....!");
-
-	
-	
+	out.print("Data Inserted Sucessfully....!");	
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
